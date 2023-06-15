@@ -8,7 +8,7 @@ import { Input, Button, Form } from "antd";
 const FormExample = () => {
   const [form] = Form.useForm();
 
-  const onFinish = (values) => {
+  const onFinish = (values: any) => {
     console.log("Success:", values);
   };
 
